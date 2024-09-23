@@ -1,0 +1,306 @@
+[
+  {
+    "imageUrl": "https://assets.codepen.io/12005/windmill.jpg",
+    "slug": "windmill",
+    "title": "Windmill",
+    "content": "Experience the serene beauty of windmills that dot the countryside. These iconic structures not only harness the wind but also provide picturesque landscapes perfect for photography. A visit to a windmill site offers a glimpse into the region's history and its relationship with nature.",
+    "location": "Various countryside locations",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/suspension-bridge.jpg",
+    "slug": "suspension-bridge",
+    "title": "Suspension Bridge",
+    "content": "Suspension bridges are marvels of engineering, connecting places across vast landscapes. Walking across one offers thrilling views and a sense of adventure. Explore the stunning scenery that surrounds these structures, making them a must-visit for any recent-photographyer.",
+    "location": "Various locations worldwide",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/sunset.jpg",
+    "slug": "sunset",
+    "title": "Sunset",
+    "content": "Watching the sunset is a universal experience that brings peace and reflection. Different locations offer unique sunset views, from beaches to mountains. Capture the beauty of the colors as the sun dips below the horizon, creating memories that last a lifetime.",
+    "location": "Various scenic viewpoints",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/snowy.jpg",
+    "slug": "snowy",
+    "title": "Snowy Landscapes",
+    "content": "Snow-covered landscapes transform ordinary scenes into winter wonderlands. Whether skiing, snowboarding, or simply enjoying a quiet walk, these snowy vistas provide a magical escape. Embrace the tranquility and beauty of a world blanketed in white.",
+    "location": "Mountain regions",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/bristol-balloons1.jpg",
+    "slug": "bristol-balloons",
+    "title": "Bristol Balloons",
+    "content": "The Bristol International Balloon Fiesta is a vibrant spectacle where colorful hot air balloons fill the sky. Experience the joy of watching them take flight during this annual event. It’s a celebration of art, aviation, and community that you won’t want to miss.",
+    "location": "Bristol, UK",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/dog-balloon.jpg",
+    "slug": "dog-balloon",
+    "title": "Dog Balloon",
+    "content": "The playful spirit of balloon animals brings joy to both kids and adults alike. Discover how these whimsical creations can brighten your day at festivals or street fairs. A simple dog balloon can spark laughter and ignite your imagination.",
+    "location": "Various festivals and fairs",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/abq-balloons.jpg",
+    "slug": "abq-balloons",
+    "title": "Albuquerque Balloons",
+    "content": "Home to the Albuquerque International Balloon Fiesta, this city is famous for its stunning displays of colorful balloons soaring against the backdrop of the Sandia Mountains. Join the festivities and experience the magic of flight in one of the largest ballooning events in the world.",
+    "location": "Albuquerque, New Mexico, USA",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/disney-balloon.jpg",
+    "slug": "disney-balloon",
+    "title": "Disney Balloon",
+    "content": "Disney parks are known for their enchanting atmosphere, and nothing says 'magic' quite like a Disney balloon. These cheerful accessories can be found throughout the parks, adding a touch of whimsy to your visit. Capture the joy of childhood as you stroll through the park with a beloved character balloon.",
+    "location": "Disney theme parks worldwide",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/bristol-harbor.jpg",
+    "slug": "bristol-harbor",
+    "title": "Bristol Harbor",
+    "content": "Bristol Harbor is a picturesque spot that blends history and beauty. Take a leisurely stroll along the waterfront, enjoy the views of historic ships, and soak in the vibrant atmosphere of this bustling area. It’s a perfect place to relax and enjoy the local culture.",
+    "location": "Bristol, UK",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/bristol-balloons2.jpg",
+    "slug": "bristol-balloons-2",
+    "title": "Bristol Balloons II",
+    "content": "Witnessing the launch of hot air balloons at dawn is a breathtaking sight. The Bristol Balloon Fiesta showcases hundreds of balloons, creating a colorful spectacle in the sky. Join the festivities and make unforgettable memories among the clouds.",
+    "location": "Bristol, UK",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://assets.codepen.io/12005/toronto.jpg",
+    "slug": "toronto",
+    "title": "Toronto",
+    "content": "Toronto is a vibrant metropolis known for its diversity and cultural attractions. From the iconic CN Tower to bustling neighborhoods, there’s always something new to explore. Indulge in world-class dining, shopping, and art scenes that make Toronto a must-visit destination.",
+    "location": "Toronto, Canada",
+    "type": "recent-photography"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/630e70385359e24c422a32ef_Screen%20Shot%202022-08-30%20at%203.04.15%20PM-p-800.jpg",
+    "slug": "image-1",
+    "title": "Image One",
+    "content": "A captivating view showcasing vibrant colors and textures.",
+    "location": "Location One",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6489746cb11ffb0e744d903b_DoniellaChives-PennCenter-3-p-800.jpg",
+    "slug": "image-2",
+    "title": "Image Two",
+    "content": "An engaging composition highlighting the essence of the moment.",
+    "location": "Location Two",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6418a538fbebed15319dc485_IMG-3603-p-800.jpg",
+    "slug": "image-3",
+    "title": "Image Three",
+    "content": "A stunning representation of creativity and inspiration.",
+    "location": "Location Three",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/654686ea135d8bd83e00b15e_Screen%20Shot%202023-11-04%20at%201.00.15%20PM-p-800.png",
+    "slug": "image-4",
+    "title": "Image Four",
+    "content": "A dynamic piece that captures the viewer's attention.",
+    "location": "Location Four",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/65467a2831f03f4280a6da31_Screen%20Shot%202023-11-04%20at%2012.05.52%20PM-p-800.png",
+    "slug": "image-5",
+    "title": "Image Five",
+    "content": "An artistic vision that blends imagination and reality.",
+    "location": "Location Five",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6546746ab59002b2b2f1b75e_Screen%20Shot%202023-11-04%20at%2011.41.16%20AM-p-800.png",
+    "slug": "image-6",
+    "title": "Image Six",
+    "content": "A vibrant portrayal that evokes deep emotions.",
+    "location": "Location Six",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6418b45e02a64203b6240f87_RobertTaylor1-p-800.jpg",
+    "slug": "image-7",
+    "title": "Image Seven",
+    "content": "A beautifully captured moment reflecting true artistry.",
+    "location": "Location Seven",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/62f5c90e5b96435b33205d14_40073_RHA_001_05-p-800.jpg",
+    "slug": "image-8",
+    "title": "Image Eight",
+    "content": "An insightful glimpse into creativity at its best.",
+    "location": "Location Eight",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/62f5bd28c11971a567844375_41427_RHA_002_07-p-800.jpg",
+    "slug": "image-9",
+    "title": "Image Nine",
+    "content": "A visual story that captivates and inspires.",
+    "location": "Location Nine",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/642af79e44849c421c888aa7_MashamaBaileyFinancialTimesPDFs-p-800.jpg",
+    "slug": "image-10",
+    "title": "Image Ten",
+    "content": "A masterful creation reflecting contemporary themes.",
+    "location": "Location Ten",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/62c1c9606bb15f69070e97e0_39322_RHA_005_08-p-800.jpeg",
+    "slug": "image-11",
+    "title": "Image Eleven",
+    "content": "A stunning piece that embodies artistic expression.",
+    "location": "Location Eleven",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/62a2644e492f93653c4641fb_Screen%20Shot%202022-06-09%20at%204.13.02%20PM-p-800.jpeg",
+    "slug": "image-12",
+    "title": "Image Twelve",
+    "content": "An evocative visual that speaks volumes.",
+    "location": "Location Twelve",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/62a2573150642d65d5361918_37587_RHA_TheAtlantic_005_01.jpg",
+    "slug": "image-13",
+    "title": "Image Thirteen",
+    "content": "A bold statement in the world of contemporary art.",
+    "location": "Location Thirteen",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6272d06f80ee5f05531e3c2d_36910_RHA_006_10-p-800.jpeg",
+    "slug": "image-14",
+    "title": "Image Fourteen",
+    "content": "A striking work that challenges perceptions.",
+    "location": "Location Fourteen",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6191b99b8496a4ecb9ce7937_BreonnaMasked-2-3-web-1-p-1080.jpeg",
+    "slug": "image-15",
+    "title": "Image Fifteen",
+    "content": "An intimate capture that resonates with viewers.",
+    "location": "Location Fifteen",
+    "type": "commission"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/61324af52b774d263a86d01e_12-OG-Cleveland-Avenue.jpg",
+    "slug": "cleveland-avenue",
+    "title": "Cleveland Avenue",
+    "content": "A vibrant street view showcasing community life and architecture.",
+    "location": "Cleveland, Ohio, USA",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/61324abbc47adc1863c88e3f_9-grand-master-thomas-martial-arts.jpg",
+    "slug": "martial-arts-thomas",
+    "title": "Grand Master Thomas",
+    "content": "An inspiring portrait of a martial arts master in action.",
+    "location": "Local dojo",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/666de0f9c5e04c010bddaca7_67657_RHA_003_10.jpg",
+    "slug": "artistic-portrait",
+    "title": "Artistic Portrait",
+    "content": "A stunning artistic representation capturing deep emotions.",
+    "location": "Studio",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6132477f5842be1c47078a49_27-Mudiatm.jpg",
+    "slug": "mudiatm-portrait",
+    "title": "Mudiatm",
+    "content": "A portrait showcasing the personality and spirit of the subject.",
+    "location": "Local event",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/613248f446aa2b18b3bcb650_24-khiry-al-amin.jpg",
+    "slug": "khiry-al-amin",
+    "title": "Khiry Al-Amin",
+    "content": "A dynamic capture of Khiry during a performance.",
+    "location": "Performance venue",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/61324907b0851c3672840ade_22-.guidance.jpg",
+    "slug": "guidance-session",
+    "title": "Guidance Session",
+    "content": "An intimate moment of guidance and mentorship.",
+    "location": "Community center",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/613249365842be4de607a2b7_19-mr-patel.jpg",
+    "slug": "mr-patel-portrait",
+    "title": "Mr. Patel",
+    "content": "A thoughtful portrait of Mr. Patel, reflecting wisdom and experience.",
+    "location": "Local shop",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6191b37578ee38771343f420_Logtown-1-web-1-p-1080.jpeg",
+    "slug": "logtown",
+    "title": "Logtown",
+    "content": "A beautiful landscape capturing the essence of rural life.",
+    "location": "Logtown, USA",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/63adb586d001047425020772_DerayNew.jpg",
+    "slug": "deray-new",
+    "title": "Deray New",
+    "content": "A candid shot capturing the vibrant personality of Deray.",
+    "location": "Urban setting",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6272d74ceb035bae46566686_DaveDennis-21.jpg",
+    "slug": "dave-dennis",
+    "title": "Dave Dennis",
+    "content": "An engaging portrait of Dave showcasing his passion.",
+    "location": "Local event",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/623119795d8397ea520837e2_img20220302_00203892-2.jpg",
+    "slug": "img20220302",
+    "title": "Captured Moment",
+    "content": "A unique snapshot that captures a fleeting moment in time.",
+    "location": "Local neighborhood",
+    "type": "personal"
+  },
+  {
+    "imageUrl": "https://cdn.prod.website-files.com/5f6164645ad60106587b0fa7/6207f55d4d27f71ac66ea4c0_Missouri1-positive.jpg",
+    "slug": "missouri-positive",
+    "title": "Missouri Positive",
+    "content": "A bright and uplifting image that embodies positivity.",
+    "location": "Missouri, USA",
+    "type": "personal"
+  }
+]

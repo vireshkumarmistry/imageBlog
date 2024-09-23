@@ -1,0 +1,1 @@
+export const CMS_NAME = "My Creativity";
