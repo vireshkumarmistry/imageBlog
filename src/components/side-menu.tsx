@@ -11,6 +11,7 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NavLink from "./nav-link";
 import { Mail, Instagram } from "lucide-react";
+import Link from "next/link";
 
 const links = [
   { href: "/recent-photography", text: "Recent" },
@@ -64,8 +65,12 @@ const SideMenu = () => {
           </SheetDescription>
         </SheetHeader>
         <div className="flex items-center gap-4 px-4 py-2">
-          <Mail size={24} />
-          <Instagram size={24} />
+          <Link href={"https://www.instagram.com/__rita.p/"}>
+            <Instagram />
+          </Link>
+          <Link href="mailto:example@example.com">
+            <Mail />
+          </Link>
         </div>
       </SheetContent>
     </Sheet>

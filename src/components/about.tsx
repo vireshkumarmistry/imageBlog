@@ -35,16 +35,8 @@ const aboutPageData = [
 
 const About = () => {
   return (
-    <div className="flex p-5 gap-3 h-[calc(100svh-142px)] overflow-auto">
-      <div className="flex w-9/12 flex-col text-sm gap-1">
-        {aboutPageData.map(({ heading, content }) => (
-          <div className="mb-2">
-            <p className="m-0 font-bold text-right">{heading}</p>
-            <p className="text-right ">{content}</p>
-          </div>
-        ))}
-      </div>
-      <div className="flex w-3/12 h-fit">
+    <div className="flex p-5 gap-3 h-[calc(100svh-104px)] lg:h-[calc(100svh-142px)] overflow-auto flex-col items-center justify-center">
+      <div className="flex w-full h-fit justify-center">
         <Image
           src={
             "https://cdn.prod.website-files.com/5f471a7abc662b212e70b1ed/610468d227db50913d29b967_rita-p-harper-portrait.jpeg"
@@ -54,6 +46,14 @@ const About = () => {
           height={100}
           objectFit="cover"
         />
+      </div>
+      <div className="flex  w-full flex-col text-sm gap-1 justify-center lg:justify-start">
+        {aboutPageData.map(({ heading, content }) => (
+          <div className="mb-2">
+            <p className="m-0 font-bold text-center">{heading}</p>
+            <p className=" text-center">{content}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
