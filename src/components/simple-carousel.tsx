@@ -25,7 +25,7 @@ const dashboadImages = [
 ];
 export default function SimpleSlider() {
   return (
-    <div className="w-[calc(100%-20px)] my-5 h-[calc(100vh-143px)] lg:h-[calc(100vh-182px)] overflow-auto">
+    <div className="w-[calc(100%-20px)] my-5 h-[calc(100svh-143px)] lg:h-[calc(100svh-182px)] overflow-auto">
       <Slider {...settings}>
         {dashboadImages.map((img) => (
           <div className="p-1 flex outline-0 cursor-move">

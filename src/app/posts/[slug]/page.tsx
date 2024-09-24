@@ -16,9 +16,9 @@ export default async function Post({ params }: Params) {
 
   return (
     <main className="w-full h-full">
-      <div className="flex flex-col items-start gap-4 mt-3 h-[calc(100vh-114px)] lg:h-[calc(100vh-175px)] overflow-auto">
+      <div className="flex flex-col items-start gap-4 mt-3 h-[calc(100svh-114px)] lg:h-[calc(100svh-175px)] overflow-auto">
         <Header title={post.title} />
-        <div className="flex items-center gap-3 flex-col lg:flex-row">
+        <div className="flex items-center gap-3 flex-col lg:flex-row h-full w-full justify-center">
           <Image
             src={post.imageUrl}
             alt={post.title || ""}

@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div className="w-full flex flex-col text-center p-2 justify-center h-100">
-      <div className="h-[calc(100vh-118px)] lg:h-[calc(100vh-158px)] overflow-auto  flex flex-col justify-center">
+      <div className="h-[calc(100svh-118px)] lg:h-[calc(100svh-158px)] overflow-auto  flex flex-col justify-center">
         <p className="mb-5 text-2xl">
           Commissions, collaborations, print sales, and all other inquiries.
         </p>

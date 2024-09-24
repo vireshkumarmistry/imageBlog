@@ -8,7 +8,7 @@ const NavbarStructure = ({
   footer,
 }: any) => {
   return (
-    <nav className="h-[calc(100vh-35px)] min-w-[240px] flex-col hidden lg:flex bg-white rounded-2xl sticky top-4">
+    <nav className="h-[calc(100svh-35px)] min-w-[240px] flex-col hidden lg:flex bg-white rounded-2xl sticky top-4">
       <div className="flex flex-col gap-8 h-full">
         <div className="flex flex-col justify-between h-full py-4 px-2 overflow-auto">
           <div className="flex flex-col gap-6">

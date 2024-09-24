@@ -27,7 +27,7 @@ const resumeData = [
 const Resume = () => {
   return (
     <div className="flex justify-center w-full">
-      <div className="flex flex-col text-sm gap-3 w-full p-6 h-[calc(100vh-102px)] lg:h-[calc(100vh-142px)] overflow-auto">
+      <div className="flex flex-col text-sm gap-3 w-full p-6 h-[calc(100svh-102px)] lg:h-[calc(100svh-142px)] overflow-auto">
         {resumeData.map(({ heading, content }, index) => (
           <>
             <div className="flex flex-col gap-8 content-center">
