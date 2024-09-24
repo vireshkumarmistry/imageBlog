@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-img {
+@layer components {
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #6b7280;
+    border-radius: 10px;
+  }
+}
+
+/* img {
   max-width: 100%;
   display: block;
 }
@@ -12,7 +25,7 @@ figure {
   display: grid;
   grid-template-rows: 1fr auto;
   margin-bottom: 10px;
-  break-inside: avoid;
+  break-inside: avoid;ri
 }
 
 figure > img {
@@ -55,4 +68,4 @@ figcaption {
   .container {
     column-count: 1;
   }
-}
+} */

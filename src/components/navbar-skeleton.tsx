@@ -1,17 +1,27 @@
 import { Skeleton } from "@/components/ui/skeleton";
+import NavbarStructure from "./sidebar-structure";
 
 const NavbarSkeleton = () => {
+  const loader = (height: number, repeat: number = 1) =>
+    Array.from({ length: repeat }, () => (
+      <Skeleton className={`h-${height} w-full bg-gray-400`} />
+    ));
+
+  const linksLoader = (repeat: number = 1) => {
+    return (
+      <div className="py-2 px-4 flex flex-col gap-1 box-border">
+        {loader(10, repeat)}
+      </div>
+    );
+  };
+
   return (
-    <div className="space-y-8 flex flex-col justify-center mt-24 p-4">
-      <Skeleton className="h-10 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-    </div>
+    <NavbarStructure
+      heading={loader(10)}
+      links={linksLoader(5)}
+      extraLinks={linksLoader(3)}
+      footer={loader(8)}
+    />
   );
 };
 

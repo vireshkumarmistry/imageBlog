@@ -1,10 +1,11 @@
 import { Mail } from "lucide-react";
 import MobileMenu from "./mobile-menu";
 import Link from "next/link";
+import RootHeaderStructure from "./root-header-structure";
 
 const RootHeader = () => {
   return (
-    <div className="border-b-[1px] p-2 border-[#54545480] w-full flex gap-2 justify-between items-center">
+    <RootHeaderStructure>
       <Link
         href="/contact"
         className="hover:underline text-sm hidden lg:flex items-center gap-2"
@@ -16,7 +17,7 @@ const RootHeader = () => {
       <div className="flex lg:hidden w-full">
         <MobileMenu />
       </div>
-    </div>
+    </RootHeaderStructure>
   );
 };
 

@@ -1,6 +1,5 @@
 "use client";
 import { useState, ReactNode } from "react";
-import Link from "next/link";
 import {
   Sheet,
   SheetContent,
@@ -11,6 +10,7 @@ import {
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import NavLink from "./nav-link";
+import { Mail, Instagram } from "lucide-react";
 
 const links = [
   { href: "/recent-photography", text: "Recent" },
@@ -35,11 +35,12 @@ const SideMenu = () => {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger asChild>
-        <Button variant="outline">
-          <Menu />
-        </Button>
+        <Menu />
       </SheetTrigger>
-      <SheetContent side="left" className="bg-[#bfb6ae] h-full">
+      <SheetContent
+        side="left"
+        className="bg-white h-full flex flex-col justify-between py-10 px-4 transition-all duration-300"
+      >
         <SheetHeader>
           <SheetDescription>
             {links.map((link) => (
@@ -62,6 +63,10 @@ const SideMenu = () => {
             ))}
           </SheetDescription>
         </SheetHeader>
+        <div className="flex items-center gap-4 px-4 py-2">
+          <Mail size={24} />
+          <Instagram size={24} />
+        </div>
       </SheetContent>
     </Sheet>
   );

@@ -37,6 +37,21 @@ const config: Config = {
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
         md: "0 8px 30px rgba(0, 0, 0, 0.12)",
       },
+      scrollbar: {
+        DEFAULT: {
+          width: "8px",
+          height: "8px",
+        },
+        rounded: {
+          borderRadius: "10px",
+        },
+        thumb: {
+          backgroundColor: "#6b7280",
+        },
+        track: {
+          backgroundColor: "#f3f4f6", 
+        },
+      },
     },
   },
   plugins: [],

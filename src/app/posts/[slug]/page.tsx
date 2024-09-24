@@ -15,22 +15,24 @@ export default async function Post({ params }: Params) {
   const content = post.content || "";
 
   return (
-    <main className="w-full">
-      <div className="flex flex-col items-center gap-4">
+    <main className="w-full h-full">
+      <div className="flex flex-col items-start gap-4 mt-3 h-[calc(100vh-114px)] lg:h-[calc(100vh-175px)] overflow-auto">
         <Header title={post.title} />
-        <Image
-          src={post.imageUrl}
-          alt={post.title || ""}
-          width={100}
-          height={100}
-          loading="lazy"
-          layout="responsive"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="max-w-[500px]"
-        />
-        <article className="mb-4">
-          <PostBody content={content} />
-        </article>
+        <div className="flex items-center gap-3 flex-col lg:flex-row">
+          <Image
+            src={post.imageUrl}
+            alt={post.title || ""}
+            width={100}
+            height={100}
+            loading="lazy"
+            layout="responsive"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="max-w-[450px]"
+          />
+          <article className="mb-4">
+            <PostBody content={content} />
+          </article>
+        </div>
       </div>
     </main>
   );

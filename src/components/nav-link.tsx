@@ -16,8 +16,8 @@ const NavLink = memo(({ href, children, onClick }: NavLinkProps) => {
 
   return (
     <Link
-      className={`flex items-center gap-2 group p-[0.9rem] rounded-md -ml-2 transition-all text-sm hover:underline ${
-        isActive ? "text-[#a05921]" : ""
+      className={`flex items-center py-2 px-4 group transition-all duration-300 rounded-lg hover:bg-[#a6baff] hover:text-white ${
+        isActive ? "text-white bg-[#a6baff]" : ""
       }`}
       href={href}
       onClick={onClick}

@@ -35,7 +35,7 @@ const aboutPageData = [
 
 const About = () => {
   return (
-    <div className="flex p-5 gap-3">
+    <div className="flex p-5 gap-3 h-[calc(100vh-142px)] overflow-auto">
       <div className="flex w-9/12 flex-col text-sm gap-1">
         {aboutPageData.map(({ heading, content }) => (
           <div className="mb-2">

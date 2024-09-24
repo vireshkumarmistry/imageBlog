@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import { CMS_NAME } from "@/lib/constants";
 import type { Metadata } from "next";
-import { PT_Serif } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import cn from "classnames";
 
 import "./globals.css";
@@ -14,14 +14,13 @@ const Nav = dynamic(() => import("@/components/nav"), {
 });
 const Footer = dynamic(() => import("@/components/footer"), {
   ssr: false,
-  loading: () => <HeaderSkeleton />,
 });
 const RootHeader = dynamic(() => import("@/components/root-header"), {
   ssr: false,
   loading: () => <HeaderSkeleton />,
 });
 
-const ptSerif = PT_Serif({
+const ptSerif = Noto_Sans({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
@@ -88,9 +87,9 @@ export default function RootLayout({
           "dark:bg-slate-900 dark:text-slate-400"
         )}
       >
-        <div className="flex items-start">
+        <div className="flex items-start bg-[#C4D7FF] p-4 overflow-hidden">
           <Nav />
-          <div className="overflow-auto h-screen w-full flex flex-1 flex-col p-4 items-center justify-between">
+          <div className="w-[calc(100%-240px)] flex flex-1 flex-col lg:p-4 items-center">
             <RootHeader />
             {children}
             <Footer />

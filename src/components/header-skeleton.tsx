@@ -1,10 +1,13 @@
 import { Skeleton } from "@/components/ui/skeleton";
+import RootHeaderStructure from "./root-header-structure";
 
 const HeaderSkeleton = () => {
   return (
-    <div className="space-y-8 w-full">
-      <Skeleton className="h-4 w-[200px] bg-gray-300" />
-    </div>
+    <RootHeaderStructure>
+      <div className="space-y-8 w-full">
+        <Skeleton className="h-4 w-[200px] bg-gray-400" />
+      </div>
+    </RootHeaderStructure>
   );
 };
 

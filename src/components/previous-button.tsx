@@ -1,7 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft } from "lucide-react";
+import { MoveLeft } from "lucide-react";
 
 const PreviousButton = () => {
   const router = useRouter();
@@ -11,10 +11,11 @@ const PreviousButton = () => {
 
   return (
     <Button
-      className="p-0 text-xs hover:underline hover:text-[#a05921]"
+      className="text-sm group hover:text-[#333] relative flex items-center gap-2 p-0"
       onClick={handleBackClick}
     >
-      <ChevronLeft size={16} /> BACK
+      <MoveLeft />
+      BACK
     </Button>
   );
 };
