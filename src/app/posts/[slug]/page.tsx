@@ -15,8 +15,8 @@ export default async function Post({ params }: Params) {
   const content = post.content || "";
 
   return (
-    <main className="w-full">
-      <div className="flex flex-col items-start gap-4 p-3">
+    <main className="w-full h-full">
+      <div className="flex flex-col items-start gap-4 p-3 h-full">
         <Header title={post.title} />
         <div className="flex items-center gap-3 flex-col lg:flex-row h-full w-full justify-center">
           <Image
