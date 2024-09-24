@@ -25,9 +25,9 @@ const Page = ({ params }: Props) => {
   const renderContent = () => {
     if (imageGalleryPages.includes(page)) {
       return (
-        <div className="w-full">
+        // <div className="w-full">
           <ImageGallery actualData={actualData} />
-        </div>
+        // </div>
       );
     }
 

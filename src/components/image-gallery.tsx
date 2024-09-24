@@ -32,7 +32,7 @@ const ImageGallery: React.FC<TravelDisplayDataProps> = ({ actualData }) => {
   };
 
   return (
-    <div className="image-gallery grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 my-4 h-[calc(100svh-130px)] lg:h-[calc(100svh-175px)] overflow-auto pr-2">
+    <div className="grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5 my-4 px-2">
       {actualData.map((obj, index) => {
         const { imageUrl, slug, title, location } = obj;
         return (

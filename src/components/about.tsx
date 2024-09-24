@@ -35,7 +35,7 @@ const aboutPageData = [
 
 const About = () => {
   return (
-    <div className="flex p-5 gap-3 h-[calc(100svh-104px)] lg:h-[calc(100svh-142px)] overflow-auto flex-col items-center justify-center">
+    <div className="flex p-5 gap-3 flex-col items-center justify-center">
       <div className="flex w-full h-fit justify-center">
         <Image
           src={
