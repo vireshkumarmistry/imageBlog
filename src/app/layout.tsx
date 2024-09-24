@@ -91,9 +91,7 @@ export default function RootLayout({
           <Nav />
           <div className="w-[calc(100%-240px)] h-[calc(100svh-32px)] flex flex-1 flex-col lg:p-4 items-center justify-between">
             <RootHeader />
-            <div className="overflow-auto w-full h-full bg-red-400">
-              {children}
-            </div>
+            <div className="overflow-auto w-full h-full">{children}</div>
             <Footer />
           </div>
         </div>
