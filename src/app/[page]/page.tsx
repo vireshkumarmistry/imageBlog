@@ -1,8 +1,8 @@
-import ImageGallery from "@/components/image-gallery";
-import About from "@/components/about";
-import Resume from "@/components/resume";
-import Contact from "@/components/contact";
 import { getTravelData, PAGE_TITLE, TravelData } from "@/lib/api";
+import AboutPage from "@/components/pages/about";
+import ContactPage from "@/components/pages/contact";
+import ResumePage from "@/components/pages/resume";
+import ImageGallery from "@/components/common/other/image-gallery";
 
 interface Props {
   params: {
@@ -24,20 +24,16 @@ const Page = ({ params }: Props) => {
 
   const renderContent = () => {
     if (imageGalleryPages.includes(page)) {
-      return (
-        // <div className="w-full">
-          <ImageGallery actualData={actualData} />
-        // </div>
-      );
+      return <ImageGallery actualData={actualData} />;
     }
 
     switch (page) {
       case PAGE_TITLE.RESUME:
-        return <Resume />;
+        return <ResumePage />;
       case PAGE_TITLE.CONTACT:
-        return <Contact />;
+        return <ContactPage />;
       default:
-        return <About />;
+        return <AboutPage />;
     }
   };
 

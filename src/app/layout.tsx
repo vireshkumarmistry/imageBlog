@@ -5,17 +5,17 @@ import { Noto_Sans } from "next/font/google";
 import cn from "classnames";
 
 import "./globals.css";
-import NavbarSkeleton from "@/components/navbar-skeleton";
-import HeaderSkeleton from "@/components/header-skeleton";
+import HeaderSkeleton from "@/components/common/skeleton/header-skeleton";
+import NavbarSkeleton from "@/components/common/skeleton/navbar-skeleton";
 
-const Nav = dynamic(() => import("@/components/nav"), {
+const Nav = dynamic(() => import("@/components/common/navbar"), {
   ssr: false,
   loading: () => <NavbarSkeleton />,
 });
-const Footer = dynamic(() => import("@/components/footer"), {
+const Footer = dynamic(() => import("@/components/common/footer"), {
   ssr: false,
 });
-const RootHeader = dynamic(() => import("@/components/root-header"), {
+const RootHeader = dynamic(() => import("@/components/common/header/root-header"), {
   ssr: false,
   loading: () => <HeaderSkeleton />,
 });
@@ -91,7 +91,7 @@ export default function RootLayout({
           <Nav />
           <div className="w-[calc(100%-240px)] h-[calc(100svh-32px)] flex flex-1 flex-col lg:p-4 items-center justify-between">
             <RootHeader />
-            <div className="overflow-auto w-full">{children}</div>
+            <div className="overflow-auto w-full h-full">{children}</div>
             <Footer />
           </div>
         </div>

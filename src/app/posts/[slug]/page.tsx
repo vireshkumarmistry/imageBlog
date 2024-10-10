@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
-import Header from "@/components/header";
-import { PostBody } from "@/components/post-body";
+import { PostBody } from "@/components/common/other/post-body";
 import posts from "@/data/data.json";
 import { getPostBySlug } from "@/lib/api";
 import Image from "next/image";
+import Header from "@/components/common/header";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
